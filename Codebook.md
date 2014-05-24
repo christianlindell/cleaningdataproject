@@ -7,7 +7,7 @@ The aim of the r script run_analysis.R is to produce summary statistics from the
 
 To run the script the data set must be downloaded and unzipt and placed in the same directory as run_analysis.R. The unzipt data set should be in the directory 'UCI HAR Dataset'. You will find detailed information of the full dataset in the 'README.txt' and the 'features_info.txt' in the directory 'UCI HAR Dataset'.
 
-The script produce a tab separated text file named 'signaldata_mean.txt? that is saved in the active directory.
+The script produce a tab separated text file named 'signaldata_mean.txt' that is saved in the active directory.
 
 ## Study design
 
@@ -85,7 +85,7 @@ The variables names has been changed according to naming conventions used in R:
 All variable names are in lower cases.
 Parenthesis, underscore and hyphens have been deleted.
 
-This mean that a variable name like ?tBodyAcc-mean()-Z? has been changed to ?tbodyaccmeanz?.
+This mean that a variable name like 'tBodyAcc-mean()-Z' has been changed to ?tbodyaccmeanz?.
 
 The aggregated data set contains the following variable names:
 
